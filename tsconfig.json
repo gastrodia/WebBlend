@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "target": "es5",
+        "module": "amd",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "outDir": "./build"
+    },
+    "buildOnSave": false,
+    "compileOnSave": true,
+    "filesGlob": [
+        "./typings/**/*.ts",
+        "./src/**/*.ts"
+    ],
+    "exclude": [],
+    "atom": {
+        "rewriteTsconfig": true
+    },
+    "files": [
+        "./typings/null.ts",
+        "./src/cakelab/io/util/CBufferReadWrite.ts",
+        "./src/cakelab/io/util/CDataReadWriteAccess.ts",
+        "./src/main.ts"
+    ]
+}
